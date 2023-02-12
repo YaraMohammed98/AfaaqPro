@@ -15,7 +15,6 @@
 }
 
 #ReqBtn{
-  width: 15vw;
   color: white;
   height: 66px;
   border-radius: 33px;
@@ -26,7 +25,6 @@
 }
 
 #lanBtn{
-  width: 5vw;
   height: 66px;
   border: #00949d;
   color: white;

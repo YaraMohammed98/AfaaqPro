@@ -1,0 +1,55 @@
+@media only screen and (min-width: 991px) {
+  .afaaqNav{
+    width: 90vw;
+    height: 124px;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+
+}
+
+.afaaqNav{
+  margin: 0px 0px 71px 69px;
+  padding: 21px 67px 21px 64.2px;
+
+}
+
+#ReqBtn{
+  width: 15vw;
+  color: white;
+  height: 66px;
+  border-radius: 33px;
+  border: #00949d;
+  background-color: #00949d;
+  font-family: Roboto;
+
+}
+
+#lanBtn{
+  width: 5vw;
+  height: 66px;
+  border: #00949d;
+  color: white;
+  border-radius: 31.5px;
+  background-color: #00949d;
+  font-family: Roboto;
+
+}
+
+nav a{
+    margin-right: 1vw;
+    font-family: Roboto;
+    font-size: 1.3vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #030303;
+}
+nav a.active {
+  color: #009c99;;
+  border-bottom: 2px solid #009c99;;
+  border-bottom-width: medium;
+}

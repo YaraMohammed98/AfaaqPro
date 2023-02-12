@@ -1,0 +1,93 @@
+.top-container{
+  position: relative;
+}
+.InfoContainer{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  height: 733px;
+  padding: 33px 0px 0px 0px;
+  height: 733px;
+  background-color: rgba(3, 3, 3, 0.4);
+
+}
+
+.InfoImg{
+  width: 100%;
+  height:733px;
+  object-fit: fit;
+}
+.imgContainer{
+  position: relative;
+  align-items: center;
+
+}
+
+.ImgText{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-family: Cairo;
+  font-size: 6vw;
+  font-weight:500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.87;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+
+}
+.dev{
+  position: absolute;
+  bottom: 0px;
+  z-index: 5;
+  width: 100%;
+
+
+}
+.wave{
+  width: 100%;
+  object-fit: fit;
+  transform: rotate(180deg);
+
+
+}
+
+.info{
+  font-family:Roboto;
+  color: #fff;
+  background-color: #009c99;
+  background-image: url("/assets/infoBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Why-Choose-Us {
+  width: 394px;
+  height: 46px;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+}
+
+.info-icon{
+  width: 39px;
+  height: 37px;
+  object-fit: contain;
+}
+
+.info p{
+  margin-top: 2vw;
+  width: 65vw;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.89;
+  text-align: center;
+}

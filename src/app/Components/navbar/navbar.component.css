@@ -1,16 +1,52 @@
-@media only screen and (min-width: 991px) {
+@media only screen and (max-width: 1309px) and (min-width: 992px)
+{
+  nav a {
+    font-size:9px !important;
+  }
+  nav{
+    padding: auto !important;
+  }
+
+}
+@media only screen and (min-width: 992px) {
   .afaaqNav{
     width: 90vw;
     height: 124px;
     border-radius: 15px;
     background-color: #fff;
   }
+  nav a {
+    margin:8px;
+    font-size: 1.2vw;
+
+
+  }
+
 
 }
 
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, .25);
+  }
+  .navbar-collapse  a{
+    color: white;
+    font-size: 15px;
+  }
+  .navbar{
+    margin-left:0 !important;
+
+  }
+
+
+}
+
+
+
 .afaaqNav{
   margin: 0px 0px 71px 69px;
-  padding: 21px 67px 21px 64.2px;
+  padding: 21px 67px 21px 100px;
+
 
 }
 
@@ -25,6 +61,7 @@
 }
 
 #lanBtn{
+  width: 66px;
   height: 66px;
   border: #00949d;
   color: white;
@@ -35,10 +72,8 @@
 }
 
 nav a{
-    margin-right: 1vw;
     font-family: "Roboto";
-    font-size: 1.2vw;
-    font-weight: 500;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 2.5;
@@ -51,3 +86,7 @@ nav a.active {
   border-bottom: 2px solid #009c99;;
   border-bottom-width: medium;
 }
+
+
+
+

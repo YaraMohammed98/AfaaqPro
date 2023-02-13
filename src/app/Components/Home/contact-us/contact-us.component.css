@@ -1,12 +1,41 @@
+@media only screen and (max-width: 767px) {
+  .contact-right{
+    width: 100%;
+    margin-top: 20px;
+
+  }
+
+}
+
 .contact-container{
-    padding: 110px;
-    height: 937px;
-    margin: 65.3px 0 0 0;
     background-color: #009c99;
     background-image: url('/assets/ContactUsBg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.contact-title{
+  font-family:"Roboto";
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+}
+
+.title-div{
+  padding-top:40px !important;
+}
+
+.wrapper{
+  /* padding: 180px; */
+  padding: 0px 90px 90px 90px;
+  padding-right:90px;
+  padding-left:90px;
+  margin: 65.3px 0 0 0;
+
 }
 .title{
     color: #bce876;
@@ -24,5 +53,19 @@
     align-items: center;
 
 }
-.contact-right{
+
+.btn-send{
+  width: 100%;
+  border-radius: 29px;
+  background-color: #bce876;
+}
+.form-control{
+  border-radius: 29px;
+  padding: 12px;
+
+}
+
+.Last{
+  margin-left: 18px;
+  width: 100%;
 }

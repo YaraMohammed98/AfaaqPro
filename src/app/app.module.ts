@@ -12,6 +12,7 @@ import { PartenersComponent } from './Components/Home/parteners/parteners.compon
 import { NgImageSliderModule } from 'ng-image-slider';
 import { ContactUsComponent } from './Components/Home/contact-us/contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './Components/Home/footer/footer.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     GalleryComponent,
     NewsComponent,
     PartenersComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

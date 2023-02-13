@@ -4,7 +4,7 @@
     padding: 49.7px 136.2px 160px 140px;
     background-color: #e5e5e5;
 
-    
+
 }
 
 .cards-container{
@@ -23,9 +23,12 @@
     font-style: normal;
     line-height: 0.89;
     letter-spacing: normal;
-  
-}
 
+}
+.readmore{
+  color: #009c99;
+  font-weight: bold;
+}
 .cards-container img{
    width: 100%
 }
@@ -37,6 +40,9 @@
     display: block;
     overflow: auto;
     width: calc(100% / 2);
+}
+.text-div{
+  padding-top:10% !important;
 }
 @media screen and (min-width: 600px) {
     .sub-div {

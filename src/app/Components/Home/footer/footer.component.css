@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1068px) {
+  .logo , .robot-con{
+    margin-left: 0 !important;
+  }
+  .footer-container{
+    padding-left: 20px !important;
+  }
+}
+
+
+.footer-container{
+  background-color: #fafef3;
+}
+.logo{
+  margin-left: 120px;
+}
+.robot-con{
+  width: 95px;
+  height: 95px;
+  margin: 24px 252px 0 65px;
+  border-radius: 50%;
+  padding: 15.5px 22px 18.3px 22.9px;
+  background-color: #ed7f57;
+}
+.header{
+  color: #027391;
+  font-weight: bold;
+}
+

@@ -15,14 +15,29 @@
   margin-top: 2%;
 
 }
-.AFAAQ-PRO{
-  position: absolute;
+.afaaq1{
   top: 35%;
   left:42%;
+
+}
+.product-ar{
+ font-family:"aeAlMothnna";
+  width: 402px;
+  height: 63px;
+  font-size: 2.5vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #009a97;
+}
+.AFAAQ-PRO{
+  position: absolute;
   transform: translate(-50%, -50%);
-  width: 394px;
   height: 85px;
-  font-family: GameOfSquids;
+  font-family:GameOfSquids;
   font-size:3.5vw;
   font-weight: normal;
   font-stretch: normal;
@@ -32,8 +47,8 @@
   color: #030303;
 }
 .left-side{
+  min-height: 100%;
   position: relative;
-  text-align: center;
 }
 .text-style-1{
   color: #027391;
@@ -46,20 +61,107 @@
 
 .detailsBtn
 {
-  height: 48px;
-  margin: 20px 120px 0px 105px;
+  width: 13vw;
+  height: 7vh;
+  padding: 2px;
+  margin-top: 2vh;
   border: none;
   border-radius: 24px;
   background-image: linear-gradient(to right, #006b8e, #00bb93);
 }
 .more-details{
-
-  width: 119px;
+  
   font-family: Roboto;
-  font-size: 15px;
+  font-size: 1.5vw;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
   color: #fff;
+}
+
+.proSecondSection{
+  background-color: #e0f3f2;
+  width:100%;
+  min-height: 70vh;
+  background-image: url('/assets/productBg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+.elipse1{
+  position: relative;
+  top: 15%;
+  left: 60%;
+  width: 15vw;
+  height:15vw;
+  padding: 4vw;
+  background-color: #0f6b90;
+  text-align: center;
+  border-radius: 50%;
+  font-family: Roboto;
+  font-size: 1.5vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+
+
+}
+.elipse2{
+  background-color: #8ede7d;
+  position: relative;
+  top: 15%;
+  left:80%;
+  width: 12vw;
+  height: 12vw;
+  padding: 2.5vw;
+  text-align: center;
+  border-radius: 50%;
+  font-family: Roboto;
+  font-size: 1.5vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+
+}
+.afaaq2{
+  top: 45%;
+
+}
+.solution-ar{
+  font-family:"aeAlMothnna";
+  font-size: 2vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: center;
+  color: #009a97;
+}
+.solution-en{
+  height: 30px;
+  font-family: Roboto;
+  font-size:1.5vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  text-align: center;
+  color: #009a97;
+}
+.right{
+  position: relative;
+  margin-left: 20%;
+  
 }

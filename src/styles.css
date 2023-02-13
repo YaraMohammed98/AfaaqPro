@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family:'Roboto';   
+    src: url(assets/font/Roboto-Regular.ttf);
+  }
+@font-face {
+    font-family: 'GameOfSquids';
+    src: url(assets/font/GameOfSquids.otf) format("opentype");
+
+  }
+@font-face {
+    font-family:'aeAlMothnna';
+    src: url(assets/font/aeAlMothnna.ttf);
+  }
+body{
+  overflow-x: hidden;
+}
+.ng-image-slider .ng-image-slider-container .main .prev {
+  /* padding-bottom: 2px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #7e7e7e !important;
+  content:url('/assets/dotleftarrow.png'); */
+
+}
+

@@ -1,0 +1,53 @@
+#content {
+    position: relative;
+    background-image: url('/assets/gallerybg3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.title{
+    font-family:"Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+}
+  
+  .title-div{
+    margin-bottom:40px;
+  }
+
+  .lf-img , .rt-img ,.rb-img{
+    width: 30vw;
+  }
+  .leftarrow{
+    width: 56px;
+    height: 56px;
+    margin: 45.7px 26.8px 60.5px 7.5px;
+    padding: 12px 14.8px 19.1px;
+    border-radius: 50%;
+    background-color: #7e7e7e;
+  }
+
+  .rightarrow{
+    background-color: #009a97;
+    width: 56px;
+    height: 56px;
+    margin: 45.7px 26.8px 57.5px 7.5px;
+    padding: 12px 14.8px 19.1px;
+    border-radius: 50%;
+  }
+  .leftarrowimg , .rightarrowimg{
+   filter: brightness(0) invert(1);
+
+
+  }
+  .rightarrowimg{
+    transform: scaleX(-1);
+  }

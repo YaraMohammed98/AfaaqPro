@@ -1,0 +1,45 @@
+.news-container{
+    height: 100%;
+    margin: 2.3px 0 62.7px 1.8px;
+    padding: 49.7px 136.2px 160px 140px;
+    background-color: #e5e5e5;
+
+    
+}
+
+.cards-container{
+    width:80vw;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0;
+    font-size: 1rem;
+
+}
+.news-title{
+    font-family:"Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+  
+}
+
+.cards-container img{
+   width: 100%
+}
+.contentflex{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.sub-div{
+    display: block;
+    overflow: auto;
+    width: calc(100% / 2);
+}
+@media screen and (min-width: 600px) {
+    .sub-div {
+      width: calc(100% / 3);
+    }
+  }
